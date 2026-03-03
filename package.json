@@ -6,12 +6,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "next": "^15.0.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "@prisma/client": "^6.0.0",
+    "prisma": "^6.0.0",
+    "openai": "^latest",
+    "lucide-react": "^0.460.0",
+    "@radix-ui/react-dialog": "^latest",
+    "@radix-ui/react-dropdown-menu": "^latest",
+    "@types/node": "^latest",
+    "prisma-client-js": "^latest",
+    "react-markdown": "^9.0.0",
+    "rehype-highlight": "^latest",
+    "clsx": "^latest",
+    "tailwind-merge": "^latest"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
