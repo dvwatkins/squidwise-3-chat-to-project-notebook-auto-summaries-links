@@ -13,11 +13,19 @@
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "@prisma/client": "^6.0.0",
-    "prisma": "^6.0.0",
-    "lucide-react": "^0.460.0",
+    "typescript": "latest",
+    "@types/react": "latest",
     "@types/node": "latest",
-    "typescript": "latest"
+    "tailwindcss": "^3.4.0",
+    "prisma": "^6.0.0",
+    "@prisma/client": "^6.0.0",
+    "@chakra-ui/react": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "framer-motion": "latest",
+    "zustand": "latest",
+    "fuse.js": "latest",
+    "axios": "latest"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
