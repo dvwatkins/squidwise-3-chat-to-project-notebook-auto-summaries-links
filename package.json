@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "next": "^15.0.0",
@@ -14,16 +15,9 @@
     "react-dom": "^19.0.0",
     "@prisma/client": "^6.0.0",
     "prisma": "^6.0.0",
-    "sqlite3": "^latest",
-    "@ai-sdk/openai": "^1.0.0",
-    "ai": "^4.0.0",
-    "react-markdown": "^9.0.0",
-    "remark-gfm": "^latest",
     "lucide-react": "^0.460.0",
-    "date-fns": "^4.0.0",
-    "clsx": "^latest",
-    "tailwind-merge": "^latest",
-    "@types/node": "^latest"
+    "@types/node": "^latest",
+    "typescript": "^latest"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
