@@ -1,14 +1,22 @@
+import React from 'react';
 import Link from 'next/link';
 
-const HomePage = () => {
+const HomePage: React.FC = () => {
   return (
-    <div>
-      <h2 className="text-xl font-bold">Welcome to the Chat-to-Project Notebook</h2>
-      <p>This app automatically converts chat conversations into structured summaries.</p>
-      <ul className="mt-4">
-        <li><Link href="/notebook" className="text-blue-600">View Notebook</Link></li>
-        <li><Link href="/features" className="text-blue-600">Explore Features</Link></li>
-      </ul>
+    <div className="space-y-4">
+      <h2 className="text-2xl font-bold">Welcome to the Chat-to-Project Notebook</h2>
+      <p>Quickly access your chat summaries and project notes.</p>
+      <div className="space-y-2">
+        <Link href="/notebooks" className="text-blue-500 underline">
+          View Notebooks
+        </Link>
+        <Link href="/search" className="text-blue-500 underline">
+          Search Summaries
+        </Link>
+        <Link href="/todos" className="text-blue-500 underline">
+          View TODO List
+        </Link>
+      </div>
     </div>
   );
 };
