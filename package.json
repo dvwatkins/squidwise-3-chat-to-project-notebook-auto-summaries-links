@@ -16,8 +16,8 @@
     "@prisma/client": "^6.0.0",
     "prisma": "^6.0.0",
     "lucide-react": "^0.460.0",
-    "@types/node": "^latest",
-    "typescript": "^latest"
+    "@types/node": "latest",
+    "typescript": "latest"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
